@@ -1,0 +1,27 @@
+{
+  "name": "semivan/php-scheduler",
+  "description": "Cron Scheduler",
+  "type": "Library",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "keywords": [
+    "cron",
+    "crontab",
+    "scheduler"
+  ],
+  "authors": [
+    {
+      "name": "Ivan Semenikhin",
+      "email": "semenihin.ivan@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "dragonmantank/cron-expression": "^2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Scheduler\\": "src/"
+    }
+  }
+}
