@@ -1,7 +1,7 @@
 {
   "name": "semivan/php-scheduler",
   "description": "Cron Scheduler",
-  "type": "Library",
+  "type": "library",
   "license": "MIT",
   "minimum-stability": "dev",
   "keywords": [
